@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    max-width: 892px;
+    margin: auto;
+    padding: 51px 0;
+}
+
+header ul {
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header ul li a:link, a:visited {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+    max-width: 892px;
+    margin: auto;
+}
+
+.internet {
+    display: flex;
+    gap: 18px;
+}
+
+.about-internet {
+    align-self: center;
+}
+
+.about-internet h3{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.about-internet p{
+    margin-top: 11px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.img img {
+    width: 393px;
+}
+
+.internet-works div {
+    display: flex;
+}
+
+.internet-works h3 {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.internet-works img {
+    height: 42px;
+}
+
+.internet-works p {
+    margin-top: 11px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.http {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.http h3 {
+    text-align: center;
+}
+
+.p-http, .p-https {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.p-http img {
+    width: 228px;
+}
+
+.p-https img {
+    width: 230px;
+}
+
+.domain-works {
+    margin-top: 11px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.domain-works img {
+    width: 260px;
+}
+
+footer {
+    margin-top: 51px;
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 20px;
+}
+
+footer p {
+    font-weight: 200;
+    font-size: 16px;
+    text-align: center;
+}
