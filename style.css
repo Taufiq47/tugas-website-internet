@@ -61,6 +61,12 @@ main {
     font-weight: 600;
 }
 
+.link-web:link, .link-web:visited {
+    color: rgb(228, 181, 42);
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .about-internet p{
     margin-top: 11px;
     font-size: 20px;
